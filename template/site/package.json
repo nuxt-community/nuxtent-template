@@ -1,12 +1,12 @@
 {
-  "name": "ALID",
+  "name": "{{ name }}",
   "version": "1.0.0",
-  "description": "TEMP",
-  "author": "ALIDDD",
+  "description": "{{ description }}",
+  "author": "{{ autor }}",
   "private": true,
   "dependencies": {
-    "@nuxtjs/content": "file:../../../nuxt-content",
-    "nuxt": "^1.0.0-alpha.5"
+    "@nuxtjs/content": "latest",
+    "nuxt": "latest"
   },
   "scripts": {
     "dev": "nuxt",
