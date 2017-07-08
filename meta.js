@@ -8,13 +8,13 @@ module.exports = {
     name: {
       'type': 'string',
       'required': true,
-      'message': 'Project name'
+      'message': 'Content Site name'
     },
     description: {
       'type': 'string',
       'required': false,
-      'message': 'Project description',
-      'default': 'Nuxt.js project'
+      'message': 'Site description',
+      'default': 'Nuxt.js Content Site'
     },
     author: {
       'type': 'string',
