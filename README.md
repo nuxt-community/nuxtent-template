@@ -1,6 +1,6 @@
 # Content Template
 
-A [nuxtjs](https://github.com/nuxt/nuxt.js) and [nuxt-content](https://github.com/nuxt-community/content-template) template.
+A [nuxtjs](https://github.com/nuxt/nuxt.js) and [nuxt-content](https://github.com/nuxt-community/content-module) template.
 
 See demo: https://nuxt-community.github.io/content-template/
 
