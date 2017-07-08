@@ -1,6 +1,6 @@
 # Content Template
 
-A `nuxt-content`(https://github.com/nuxt-community/content-module) starter template for content heavy sites, such as blogs and documentation sites.
+A [`nuxt-content`](https://github.com/nuxt-community/content-module) starter template for content heavy sites, such as blogs and documentation sites.
 
 ## Installation
 
