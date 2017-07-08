@@ -1,6 +1,6 @@
-# Starter
+# Content Template
 
-A [Nuxt.js](https://github.com/nuxt/nuxt.js) starter project template without the distraction of a complicated development environment.
+A `nuxt-content`(https://github.com/nuxt-community/content-module) starter template for content heavy sites, such as blogs and documentation sites.
 
 ## Installation
 
