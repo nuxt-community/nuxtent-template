@@ -1,5 +1,5 @@
 ---
-title: Hello World!
+title: Hello World
 ---
 
-This is my first post! 
+I started in the content directory and somehow made it all the way here!

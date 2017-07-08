@@ -5,6 +5,9 @@
 ## Build Setup
 
 ``` bash
+# enter directory Nuxt source directory
+$ cd site
+
 # install dependencies
 $ npm install # Or yarn install
 

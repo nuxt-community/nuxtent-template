@@ -30,7 +30,7 @@
 {
   border-left: 105px solid transparent;
   border-right: 105px solid transparent;
-  border-bottom: 180px solid #41B883;
+  border-bottom: 180px solid #ccebff;
 }
 .Triangle--two
 {
@@ -39,7 +39,7 @@
   animation: goright 0.5s linear forwards 3.5s;
   border-left: 87.5px solid transparent;
   border-right: 87.5px solid transparent;
-  border-bottom: 150px solid #3B8070;
+  border-bottom: 150px solid #add2eb;
 }
 .Triangle--three
 {
@@ -48,7 +48,7 @@
   animation: goright 0.5s linear forwards 3.5s;
   border-left: 70px solid transparent;
   border-right: 70px solid transparent;
-  border-bottom: 120px solid #35495E;
+  border-bottom: 120px solid #35495e;
 }
 .Triangle--four
 {
