@@ -1,10 +1,11 @@
+{{{{raw}}}}
 <template>
 <section class="content-container">
   <h1 class="post-title"> {{ post.title }} </h1>
   <div class="post-content" v-html="post.content" />
 </section>
 </template>
-
+{{{{/raw}}}}
 
 <script>
 export default {
