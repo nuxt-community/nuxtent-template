@@ -5,7 +5,7 @@
         Seamlessly use markdown files in your Nuxt.js sites.
       </h2>
       <div class="home-links">
-        <a href="/hello-world" class="button--green">See Your First Post</a>
+        <nuxt-link href="/hello-world" class="button--green">See Your First Post</nuxt-link>
         <a href="https://github.com/nuxt-community/content-module" target="_blank" class="button--grey">Learn More on Github</a>
       </div>
     </div>
