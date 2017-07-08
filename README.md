@@ -2,6 +2,8 @@
 
 > nuxt content template demo
 
+See demo: https://nuxt-community.github.io/content-template/
+
 ## Build Setup
 
 ``` bash
