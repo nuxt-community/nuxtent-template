@@ -1,26 +1,45 @@
-# nuxt-content-template-demo
+# Content Template
 
-> nuxt content template demo
+A [nuxtjs](https://github.com/nuxt/nuxt.js) and [nuxt-content](https://github.com/nuxt-community/content-template) template.
 
 See demo: https://nuxt-community.github.io/content-template/
 
-## Build Setup
+## Installation
+
+This is a site template for [vue-cli](https://github.com/vuejs/vue-cli).
 
 ``` bash
-# enter directory Nuxt source directory
-$ cd site
-
+$ vue init nuxt-community/content-template my-site
+$ cd my-site
 # install dependencies
 $ npm install # Or yarn install
+```
 
-# serve with hot reload at localhost:3000
+> Make sure to use a version of vue-cli >= 2.1 (`vue -V`).
+
+## Usage
+
+### Development
+
+``` bash
+# serve with hot reloading at localhost:3000
 $ npm run dev
+```
 
-# build for production and launch server
+Go to [http://localhost:3000](http://localhost:3000)
+
+### Production
+
+``` bash
+# build for production and launch the server
 $ npm run build
 $ npm start
+```
 
-# generate static project
+### Generate
+
+``` bash
+# generate a static project
 $ npm run generate
 ```
 
