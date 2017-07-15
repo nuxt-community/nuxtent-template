@@ -1,6 +1,6 @@
 <template>
   <div>
-    <a class="site-nav" href="/content-template">
+    <a class="site-nav" href="/">
       <logo class="site-logo" />
       <h1 class="site-title"> NUXT-CONTENT </h1>
     </a>
