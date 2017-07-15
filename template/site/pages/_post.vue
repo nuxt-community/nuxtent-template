@@ -9,8 +9,8 @@
 
 <script>
 export default {
-  asyncData: ({ app, route }) => ({
-    post: app.$content('posts').get(route.path)
+  asyncData: async ({ app, route, payload }) => ({
+    post: await app.$content('posts').get(route.path) || payload
   })
 }
 </script>
