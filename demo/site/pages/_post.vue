@@ -1,15 +1,15 @@
 <template>
 <section class="content-container">
   <h1 class="post-title"> {{ post.title }} </h1>
-  <div class="post-content" v-html="post.content" />
+  <div class="post-content" v-html="post.body" />
 </section>
 </template>
 
 <script>
 export default {
-  asyncData: ({ app, route }) => ({
-    post: app.$content('posts').get(route.path)
-  })
+  asyncData: async ({ app, route, payload }) => {
+    return { post: await app.$content('posts').get(route.path) || payload }
+  }
 }
 </script>
 

@@ -1,6 +1,6 @@
-# nuxt-content-template-demo
+# nuxt-content-starter-demo
 
-> nuxt content starter
+> nuxt-content starter template demo
 
 ## Build Setup
 

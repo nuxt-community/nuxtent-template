@@ -1,11 +1,12 @@
 {
-  "name": "nuxt-content-template-demo",
+  "name": "nuxt-content-starter-demo",
   "version": "1.0.0",
-  "description": "nuxt content starter",
+  "description": "nuxt-content starter template demo",
   "author": "",
   "private": true,
   "dependencies": {
-    "@nuxtjs/content": "latest",
+    "@nuxtjs/axios": "^2.2.0",
+    "@nuxtjs/content": "^0.2.5",
     "nuxt": "latest"
   },
   "scripts": {
@@ -13,8 +14,8 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint"
   },
   "devDependencies": {
