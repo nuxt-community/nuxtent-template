@@ -6,7 +6,8 @@
   "private": true,
   "dependencies": {
     "nuxtent": "latest",
-    "nuxt": "latest"
+    "nuxt": "latest",
+    "@nuxtjs/axios": "latest"
   },
   "scripts": {
     "dev": "nuxt",
