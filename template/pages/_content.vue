@@ -2,7 +2,7 @@
 <template>
 <section class="content-container">
   <h1 class="post-title"> {{ post.title }} </h1>
-  <nuxt-content :body="post.body" />
+  <nuxtent-body :body="post.body" />
 </section>
 </template>
 {{{{/raw}}}}
@@ -10,7 +10,7 @@
 <script>
 export default {
   asyncData: async ({ app, route, payload }) => ({
-    post: await app.$content('posts').get(route.path) || payload
+    post: await app.$content('/').get(route.path) || payload
   })
 }
 </script>
@@ -18,7 +18,6 @@ export default {
 <style>
 .content-container
 {
-  padding: 2rem 1rem;
   width: 38rem;
   margin: 0 auto
 }
@@ -26,7 +25,8 @@ export default {
 .post-title
 {
   font-size: 2.5rem;
-  margin-bottom: 1rem
+  margin-bottom: 1rem;
+  font-weight: 500;
+  color: #35495e;
 }
-
 </style>

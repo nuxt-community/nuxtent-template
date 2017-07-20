@@ -1,16 +1,22 @@
 <template>
-  <div>
+  <div class="showcase">
+    <p>You think that's cool? I started in the components directory! </p>
     <div class="VueToNuxtLogo">
       <div class="Triangle Triangle--two"></div>
       <div class="Triangle Triangle--one"></div>
       <div class="Triangle Triangle--three"></div>
       <div class="Triangle Triangle--four"></div>
     </div>
-    <p>You think that's cool? I started in the components directory! </p>
   </div>
 </template>
 
 <style>
+.showcase p
+{
+  margin-top: 2rem;
+  margin-bottom: 2rem
+}
+
 .VueToNuxtLogo
 {
   display: inline-block;
