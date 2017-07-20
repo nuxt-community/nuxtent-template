@@ -5,7 +5,7 @@
   "author": "{{ autor }}",
   "private": true,
   "dependencies": {
-    "@nuxtjs/content": "latest",
+    "nuxtent": "latest",
     "nuxt": "latest"
   },
   "scripts": {

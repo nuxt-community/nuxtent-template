@@ -1,9 +1,12 @@
 <template>
-  <div class="VueToNuxtLogo">
-    <div class="Triangle Triangle--two"></div>
-    <div class="Triangle Triangle--one"></div>
-    <div class="Triangle Triangle--three"></div>
-    <div class="Triangle Triangle--four"></div>
+  <div>
+    <div class="VueToNuxtLogo">
+      <div class="Triangle Triangle--two"></div>
+      <div class="Triangle Triangle--one"></div>
+      <div class="Triangle Triangle--three"></div>
+      <div class="Triangle Triangle--four"></div>
+    </div>
+    <p>You think that's cool? I started in the components directory! </p>
   </div>
 </template>
 

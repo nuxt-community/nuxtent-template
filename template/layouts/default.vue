@@ -1,22 +1,11 @@
 <template>
   <div>
-    <a class="site-nav" href="/content-template">
-      <logo class="site-logo" />
-      <h1 class="site-title"> NUXT-CONTENT </h1>
+    <a class="site-nav" href="/">
+      <h1 class="site-title"> NUXTENT </h1>
     </a>
     <nuxt/>
   </div>
 </template>
-
-<script>
-import Logo from '~components/Logo.vue'
-
-export default {
-  components: {
-    Logo
-  }
-}
-</script>
 
 <style>
 html
@@ -79,7 +68,7 @@ html
 {
   font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
   display: block;
-  font-weight: 300;
+  font-weight: 600;
   font-size: 3.5rem;
   color: #35495e;
   letter-spacing: 1px;
