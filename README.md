@@ -1,15 +1,13 @@
 # Content Template
 
-A [nuxtjs](https://github.com/nuxt/nuxt.js) and [nuxt-content](https://github.com/nuxt-community/content-module) template.
-
-See demo: https://nuxt-community.github.io/content-template/
+A [nuxtjs](https://github.com/nuxt/nuxt.js) and [nuxtent](https://github.com/nuxt-community/nuxtent) template.
 
 ## Installation
 
 This is a site template for [vue-cli](https://github.com/vuejs/vue-cli).
 
 ``` bash
-$ vue init nuxt-community/content-template my-site
+$ vue init nuxt-community/nuxtent-starter my-site
 $ cd my-site
 # install dependencies
 $ npm install # Or yarn install
@@ -43,4 +41,4 @@ $ npm start
 $ npm run generate
 ```
 
-For detailed explanation on how things work, checkout the [nuxt.js](https://github.com/nuxt/nuxt.js) and [nuxt-content](https://github.com/nuxt-community/content-module) docs.
+For detailed explanation on how things work, checkout the [nuxt.js](https://github.com/nuxt/nuxt.js) and [nuxtent](https://github.com/nuxt-community/nuxtent) docs.
