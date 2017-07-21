@@ -2,7 +2,7 @@
   <section class="home-container">
     <div>
       <h2 class="home-slogan">
-        Seamlessly use markdown files in your Nuxt.js sites.
+        Seamlessly use content files in your Nuxt.js sites.
       </h2>
       <div class="home-links">
         <nuxt-link to="/hello-world" class="button--green">See Your First Post</nuxt-link>
