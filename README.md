@@ -1,4 +1,4 @@
-# Content Template
+# Nuxtent Template
 
 A [nuxtjs](https://github.com/nuxt/nuxt.js) and [nuxtent](https://github.com/nuxt-community/nuxtent) template.
 
