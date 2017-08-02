@@ -1,10 +1,18 @@
 module.exports = {
   content: {
-    routeName: 'content',
     permalink: ':slug',
+    routes: [
+      {
+        path: '/_content',
+        method: 'get'
+      }
+    ],
     isPost: false
   },
+
   api: {
-    baseURL: (isProd) => isProd ? 'https://nuxtent-starter.now.sh' : 'http://localhost:3000'
+    baseURL: process.env.NODE_ENV === 'production'
+      ? 'https://nuxtent-template.now.sh'
+      : 'http://localhost:3000'
   }
 }

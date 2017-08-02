@@ -5,15 +5,15 @@
   "author": "",
   "private": true,
   "dependencies": {
-    "nuxtent": "latest",
-    "nuxt": "latest",
-    "@nuxtjs/axios": "latest"
+    "@nuxtjs/axios": "latest",
+    "nuxt": "1.0.0-alpha.3",
+    "nuxtent": "latest"
   },
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate",
+    "build": "NODE_ENV='production' nuxt build",
+    "start": "NODE_ENV='production' nuxt start",
+    "generate": "NODE_ENV='production' IS_STATIC=true nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
     "precommit": "npm run lint"

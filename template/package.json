@@ -6,7 +6,7 @@
   "private": true,
   "dependencies": {
     "nuxtent": "latest",
-    "nuxt": "latest",
+    "nuxt": "1.0.0-alpha.3",
     "@nuxtjs/axios": "latest"
   },
   "scripts": {

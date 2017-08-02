@@ -7,7 +7,7 @@ A [nuxtjs](https://github.com/nuxt/nuxt.js) and [nuxtent](https://github.com/nux
 This is a site template for [vue-cli](https://github.com/vuejs/vue-cli).
 
 ``` bash
-$ vue init nuxt-community/nuxtent-starter my-site
+$ vue init nuxt-community/nuxtent-template my-site
 $ cd my-site
 # install dependencies
 $ npm install # Or yarn install

@@ -1,6 +1,6 @@
-# nuxtent-starter
+# nuxtent-template
 
-> nuxtent starter demo
+> nuxtent template demo
 
 ## Build Setup
 
@@ -22,4 +22,4 @@ $ npm start
 $ npm run generate
 ```
 
-For detailed explanation on how things work, checkout the [nuxt.js](https://github.com/nuxt/nuxt.js) and [nuxt-content](https://github.com/nuxt-community/content-module) docs.
+For detailed explanation on how things work, checkout the [nuxt.js](https://github.com/nuxt/nuxt.js) and [nuxt-content](https://github.com/nuxt-community/nuxtent-module) docs.
