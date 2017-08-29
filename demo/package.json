@@ -7,7 +7,7 @@
   "dependencies": {
     "@nuxtjs/axios": "latest",
     "nuxt": "1.0.0-alpha.3",
-    "nuxtent": "latest"
+    "nuxtent": "^0.2.77"
   },
   "scripts": {
     "dev": "nuxt",

@@ -1,12 +1,7 @@
 module.exports = {
   content: {
     permalink: ':slug',
-    routes: [
-      {
-        path: '/_content',
-        method: 'get'
-      }
-    ],
+    page: '/_content',
     isPost: false
   },
 
