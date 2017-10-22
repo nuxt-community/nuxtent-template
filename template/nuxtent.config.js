@@ -6,11 +6,5 @@ module.exports = {
       'get', 'getAll'
     ],
     isPost: false
-  },
-
-  api: {
-    baseURL: process.env.NODE_ENV === 'production'
-      ? 'http://localhost:3000'
-      : 'http://localhost:3000'
   }
 }
