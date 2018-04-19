@@ -1,6 +1,9 @@
 <template>
   <div>
-    <a class="site-nav" href="/">
+    <a
+      class="site-nav"
+      href="/"
+    >
       <h1 class="site-title"> NUXTENT </h1>
     </a>
     <nuxt/>
