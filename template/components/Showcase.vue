@@ -1,11 +1,11 @@
 <template>
   <div class="showcase">
-    <p>You think that's cool? I started in the components directory! </p>
+    <p>You think that's cool? I started in the components directory!</p>
     <div class="VueToNuxtLogo">
-      <div class="Triangle Triangle--two"></div>
-      <div class="Triangle Triangle--one"></div>
-      <div class="Triangle Triangle--three"></div>
-      <div class="Triangle Triangle--four"></div>
+      <div class="Triangle Triangle--two" />
+      <div class="Triangle Triangle--one" />
+      <div class="Triangle Triangle--three" />
+      <div class="Triangle Triangle--four" />
     </div>
   </div>
 </template>
