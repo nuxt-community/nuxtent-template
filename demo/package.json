@@ -5,9 +5,9 @@
   "author": "",
   "private": true,
   "dependencies": {
-    "@nuxtjs/axios": "latest",
-    "nuxt": "1.4.0",
-    "nuxtent": "^1.4.1"
+    "nuxtent": "latest",
+    "nuxt": "^1.4.2",
+    "@nuxtjs/axios": "latest"
   },
   "scripts": {
     "dev": "nuxt",
@@ -19,8 +19,9 @@
     "precommit": "npm run lint"
   },
   "devDependencies": {
-    "babel-eslint": "^8.2.2",
-    "eslint": "^4.19.1",
-    "eslint-plugin-vue": "^4.4.0"
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.6.0",
+    "eslint-loader": "^2.1.0",
+    "eslint-plugin-vue": "^4.7.1"
   }
 }

@@ -1,9 +1,9 @@
 {{{{raw}}}}
 <template>
-<section class="content-container">
-  <h1 class="post-title"> {{ post.title }} </h1>
-  <nuxtent-body :body="post.body" />
-</section>
+  <section class="content-container">
+    <h1 class="post-title"> {{ post.title }} </h1>
+    <nuxtent-body :body="post.body" />
+  </section>
 </template>
 {{{{/raw}}}}
 
